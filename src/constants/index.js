@@ -103,6 +103,33 @@ export const myProjects = [
   },
   {
     id: 4,
+    title: "Focal Driving Academy UI/UX Redesign",
+    description:
+      "A premium, high-impact web interface for Focal Driving Academy Leicester. Built with Next.js and Tailwind CSS 4, featuring a bold Modern Editorial aesthetic designed for conversion and brand authority.",
+    subDescription: [
+      "Engineered a comprehensive admin dashboard inside the platform to centralize student management, instructor tracking, and lesson scheduling.",
+      "Integrated localized structured content management to dynamically update regional driving lesson information, pricing tiers, and test preparation resources.",
+      "Developed reusable frontend components and shared UI utilities to streamline booking flows and client area interfaces across the platform.",
+      "Leveraged Next.js for a performant, SEO-optimized frontend architecture coupled with secure backend APIs for smooth client interactions.",
+    ],
+    href: "https://github.com/VERIDIITE/Focal-driving-academy-ui",
+    logo: "",
+    image: "/assets/projects/focal.png",
+    tags: [
+      {
+        id: 1,
+        name: "Nextjs",
+        path: "/assets/logos/nextjs.png",
+      },
+      {
+        id: 2,
+        name: "TypeScript",
+        path: "/assets/logos/typescript.svg",
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "Hyperactive Block Reveal Animation",
     description:
       "A visually striking block-reveal animation system powered by GSAP, designed to create high-impact transitions and content reveals for modern web experiences.",
@@ -134,7 +161,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "AI-Powered NFT Discovery Platform Project",
     description:
       "A modern, AI-driven NFT discovery and curation platform built with Next.js, React, and TypeScript to redefine digital asset exploration.",
@@ -165,43 +192,6 @@ export const myProjects = [
       },
     ],
   },
-  {
-    id: 6,
-    title: "Directory Search Utility",
-    description:
-      "A fast and efficient folder search tool built with C# .NET for locating files based on custom criteria.",
-    subDescription: [
-      "Developed high-performance directory scanning algorithms for rapid file discovery.",
-      "Implemented customizable search parameters including filename, content, size, and date filters.",
-      "Created an optimized indexing system for near-instantaneous search results.",
-      "Designed a clean, intuitive interface for effortless navigation and file management.",
-    ],
-    href: "https://github.com/VERIDIITE/WinForms-File-Searcher",
-    logo: "",
-    image: "/assets/projects/S2.png",
-    tags: [
-      {
-        id: 1,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
 ];
 
 // SOCIALS
@@ -228,13 +218,14 @@ export const mySocials = [
 export const experiences = [
   {
     title: "Software Engineer (Internship)",
-    job: "Lunim / Tabb",
+    job: "Lunim Studio / Tabb",
     date: "2024-2025",
     contents: [
-      "Contributed to the migration of legacy Ruby on Rails systems into a modern TypeScript-based architecture using Next.js and NestJS.",
-      "Developed modular, scalable frontend and backend components — integrating Prisma ORM for type-safe database management with PostgreSQL.",
-      "Enhanced CI/CD pipelines and deployment automation through Heroku, ensuring smooth delivery and environment consistency.",
-      "Collaborated cross-functionally to document and present the new architecture (Tabb project) — improving team understanding and future scalability.",
+      "Contributed to the development and migration of legacy Ruby on Rails systems into modern Next.js (frontend) and NestJS (backend) services for Tabb, a community platform for filmmakers, producers, and actors.",
+      "Developed, integrated, and refactored modular, scalable frontend and backend components including core modules like authentication, profiles, and opportunities—ensuring type-safe data flow using Prisma ORM and PostgreSQL.",
+      "Enhanced CI/CD pipelines and deployment automation to support multi-service deployments using Heroku pipelines, ensuring reliable rollouts and consistency across development, staging, and production environments.",
+      "Worked with Prismic Slice Machine on the Moonstone project, contributing to the implementation and structuring of identity-related content and flows to ensure seamless integration between the CMS, frontend components, and backend services.",
+      "Skills Gained: Full-Stack Development (Next.js & NestJS), Ruby on Rails Migration, Prisma ORM, PostgreSQL, CI/CD Pipelines, Heroku Deployment, API Testing (Postman), System Architecture, CMS Integration (Prismic Slice Machine), Cross-Team Collaboration.",
     ],
   },
   {
